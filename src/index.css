@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #444444;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5faee3;
+  text-decoration: none;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Burger Menu */
+.sidebarOpen1 {
+  transform-origin: bottom;
+  transform: rotatez(45deg) translate(8px, 0px);
+}
+
+.sidebarOpen2 {
+  transform-origin: top;
+  transform: rotatez(-45deg);
+}
+
+.sidebarOpen3 {
+  transform-origin: bottom;
+  width: 50%;
+  transform: translate(18px, -6px) rotatez(45deg);
+}
+
+/* Hero Animation */
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.up-down-animation {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.team-card-bg {
+  background: rgb(136, 137, 142);
+  background: linear-gradient(
+    11deg,
+    rgba(136, 137, 142, 1) 0%,
+    rgba(204, 205, 209, 1) 73%,
+    rgba(212, 212, 214, 1) 100%
+  );
+}
+
+/* Internal Page animation */
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.slide-right-animation {
+  animation: slide-left 0.25s ease-in;
+}
+
+.slide-left-animation {
+  animation: slide-right 0.25s ease-in;
+}
