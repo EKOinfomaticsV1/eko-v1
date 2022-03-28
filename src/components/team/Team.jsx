@@ -2,7 +2,7 @@ import React from "react";
 import SectionHeading from "../global/SectionHeading";
 import CEO from "../../assets/img/team/Ranganathan.png";
 import ProductManager from "../../assets/img/team/Rajlaxmi.png";
-import CTO from "../../assets/img/team/Dharshan.png";
+import CTO from "../../assets/img/team/darshan.png";
 import Acountant from "../../assets/img/team/Patrick.png";
 import TeamCards from "./TeamCards";
 
@@ -89,7 +89,7 @@ const Team = () => {
           >
             <TeamCards
               teamImg={Acountant}
-              teamDesignation="Advisor"
+              teamDesignation="Director US EKO"
               teamName="Patrick Toner"
             />
           </a>
