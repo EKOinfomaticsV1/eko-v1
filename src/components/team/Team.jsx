@@ -1,8 +1,9 @@
 import React from "react";
 import SectionHeading from "../global/SectionHeading";
-import CEO from "../../assets/img/team/Ranganathan.png";
+import CEO from "../../assets/img/team/rangaSir.png";
 import ProductManager from "../../assets/img/team/Rajlaxmi.png";
 import CTO from "../../assets/img/team/darshan.png";
+import neerajSir from "../../assets/img/team/NeerajPalSingh.png";
 import Acountant from "../../assets/img/team/Patrick.png";
 import TeamCards from "./TeamCards";
 
@@ -48,7 +49,7 @@ const Team = () => {
             Meet our team behind all this great work
           </p>
         </div>
-        <div className="grid grid-cols-2 lg:grid-cols-4  w-[90%] lg:w-[80%] sm:w-[70%] mx-auto my-20 justify-items-center">
+        <div className="grid grid-cols-2 lg:grid-cols-3   w-[90%] lg:w-[80%] sm:w-[70%] mx-auto my-20 justify-items-center items-center ">
           <a
             href="https://www.linkedin.com/in/ranganathansrinivasan/"
             target="_blank"
@@ -91,6 +92,17 @@ const Team = () => {
               teamImg={Acountant}
               teamDesignation="Director US EKO"
               teamName="Patrick Toner"
+            />
+          </a>
+          <a
+            href="https://in.linkedin.com/in/neeraj-pal-singh"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <TeamCards
+              teamImg={neerajSir}
+              teamDesignation="Advisor"
+              teamName="Neeraj Pal Singh"
             />
           </a>
         </div>
