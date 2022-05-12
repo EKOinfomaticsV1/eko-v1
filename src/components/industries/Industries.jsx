@@ -53,7 +53,7 @@ const Industries = () => {
           We have delivered more than 1000+ projects in the Banking, Insurance,
           Retail, Manufacturing, Defense domains.
         </p>
-        <div className="grid grid-cols-2 justify-items-center lg:grid-cols-4  w-[95%] lg:w-[80%] sm:w-[70%] mx-auto my-20 ">
+        <div className="grid grid-cols-2 justify-items-center lg:grid-cols-4  w-[95%] lg:w-[90%] sm:w-[70%] mx-auto my-20 ">
           {/* BankingAndInsurance Card */}
           <Link to="/banking-and-insurance">
             <ServiceCards

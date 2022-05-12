@@ -9,6 +9,7 @@ import WarehouseOutlinedIcon from "@mui/icons-material/WarehouseOutlined";
 import HomeRepairServiceOutlinedIcon from "@mui/icons-material/HomeRepairServiceOutlined";
 import AcUnitOutlinedIcon from "@mui/icons-material/AcUnitOutlined";
 import { NavHashLink } from "react-router-hash-link";
+import SchoolOutlinedIcon from "@mui/icons-material/SchoolOutlined";
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -21,7 +22,7 @@ const Header = () => {
       // ease="easeIn"
       className="z-[90] transition-all duration-[0.5s] py-[22px] bg-[#fefeff] overflow-x-hidden sticky top-0 overflow-hidden"
     >
-      <nav className="w-[95%] lg:w-[80%] mx-auto flex justify-between items-center overflow-hidden">
+      <nav className="w-[95%] lg:w-[90%] mx-auto flex justify-between items-center overflow-hidden">
         {/* logo */}
         <div className="">
           {/* <h1 className="text-[30px] font-semibold tracking-[1px]">
@@ -84,6 +85,17 @@ const Header = () => {
             >
               Capabilities
             </NavHashLink>
+          </li>
+
+          <li>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdkpxy_LZnwpjdjzBM_RnlEZbIEkFxce8P17FdnvQOGASeZ2g/viewform"
+              target="_blank"
+              rel="noreferrer"
+              className="p-3 xl:p-5 xl:mx-2 hover:text-[#3498db] transition-all"
+            >
+              Career
+            </a>
           </li>
 
           <li>
@@ -207,6 +219,20 @@ const Header = () => {
               </span>
               <span className="ml-5">Capabilities</span>
             </NavHashLink>
+
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdkpxy_LZnwpjdjzBM_RnlEZbIEkFxce8P17FdnvQOGASeZ2g/viewform"
+              target="_blank"
+              rel="noreferrer"
+              className="p-5 flex justify-center items-center  m-2 hover:text-[#3498db] transition-all"
+              onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+            >
+              <span>
+                <SchoolOutlinedIcon />
+              </span>
+              <span className="ml-5"> Career</span>
+            </a>
+
             <li>
               <NavHashLink
                 to="/#contact"

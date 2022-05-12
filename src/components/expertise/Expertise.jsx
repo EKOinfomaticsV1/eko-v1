@@ -52,7 +52,7 @@ const Expertise = () => {
       <motion.section animate={slideTop} className="pt-[80px] font-sans">
         <SectionHeading>EXPERTISE</SectionHeading>
 
-        <div className="flex flex-col-reverse lg:flex-row justify-between items-center  py-[80px]  w-[95%] lg:w-[80%] max-w-[1500px] mx-auto ">
+        <div className="flex flex-col-reverse lg:flex-row justify-between items-center  py-[80px]  w-[95%] lg:w-[90%] max-w-[1500px] mx-auto ">
           {/* Key Technology */}
           {/* <div className="border-[#93b1ce] border-2 w-[250px] h-[250px] text-center p-3 rounded-full rotate-90 absolute left-0 my-auto ml-[-145px] hidden xl:block">
             <div className="bg-[#93b1ce]  w-full h-full text-center rounded-full p-3">

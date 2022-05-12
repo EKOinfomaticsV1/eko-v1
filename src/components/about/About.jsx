@@ -43,7 +43,7 @@ const About = () => {
       >
         <SectionHeading>ABOUT</SectionHeading>
 
-        <div className="w-[95%] lg:w-[80%] mx-auto my-10 space-y-10 lg:flex justify-between items-start lg:space-y-0 lg:space-x-10">
+        <div className="w-[95%] lg:w-[90%] mx-auto my-10 space-y-10 lg:flex justify-between items-start lg:space-y-0 lg:space-x-10">
           <p className="text-[16px] text-[#444444] w-[95%] lg:w-[80%] mx-auto">
             We help our clients across the globe to enhance ROI, build customer
             loyalty and enhance business goals. We provide customized solutions

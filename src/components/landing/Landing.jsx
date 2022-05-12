@@ -7,7 +7,7 @@ import CLientBanner from "./CLientBanner";
 const Landing = () => {
   return (
     <section className="lg:pt-[80px] overflow-hidden">
-      <div className="pt-[80px] lg:pt-0 h-[80vh] flex flex-col justify-around  items-center md:h-auto w-[95%] mx-auto lg:w-[80%] md:flex lg:flex-row-reverse lg:justify-between lg:items-center mb-[50px] lg:mt-[20px] lg:my-[100px]  max-w-[3000px]">
+      <div className="pt-[80px] lg:pt-0 h-[80vh] flex flex-col justify-around  items-center md:h-auto w-[95%] mx-auto lg:w-[90%] md:flex lg:flex-row-reverse lg:justify-between lg:items-center mb-[50px] lg:mt-[20px] lg:my-[100px]  max-w-[3000px]">
         <motion.div
           initial={{ x: 70, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}

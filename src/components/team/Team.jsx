@@ -49,7 +49,7 @@ const Team = () => {
             Meet our team behind all this great work
           </p>
         </div>
-        <div className="grid grid-cols-2 lg:grid-cols-3   w-[90%] lg:w-[80%] sm:w-[70%] mx-auto my-20 justify-items-center items-center ">
+        <div className="grid grid-cols-2 lg:grid-cols-3   w-[90%] lg:w-[90%] sm:w-[70%] mx-auto my-20 justify-items-center items-center ">
           <a
             href="https://www.linkedin.com/in/ranganathansrinivasan/"
             target="_blank"

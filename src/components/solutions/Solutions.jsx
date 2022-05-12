@@ -45,7 +45,7 @@ const Services = () => {
       <motion.section animate={slideTop} className="pt-[100px] font-sans">
         <SectionHeading>SOLUTIONS </SectionHeading>
 
-        <div className="grid grid-cols-2 justify-items-center lg:grid-cols-4  w-[95%] lg:w-[80%] sm:w-[70%] mx-auto my-20 ">
+        <div className="grid grid-cols-2 justify-items-center lg:grid-cols-4  w-[95%] lg:w-[90%] sm:w-[70%] mx-auto my-20 ">
           {/* AI Card */}
           <Link to="/artificial-intelligence">
             <ServiceCards
