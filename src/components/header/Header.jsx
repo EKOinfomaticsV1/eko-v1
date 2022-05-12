@@ -94,7 +94,7 @@ const Header = () => {
               rel="noreferrer"
               className="p-3 xl:p-5 xl:mx-2 hover:text-[#3498db] transition-all"
             >
-              Career
+              Careers
             </a>
           </li>
 
@@ -230,7 +230,7 @@ const Header = () => {
               <span>
                 <SchoolOutlinedIcon />
               </span>
-              <span className="ml-5"> Career</span>
+              <span className="ml-5"> Careers</span>
             </a>
 
             <li>
