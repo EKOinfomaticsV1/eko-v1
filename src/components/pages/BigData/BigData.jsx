@@ -23,8 +23,7 @@ const BigData = () => {
           Big Data offers amazing potential, returning benefits on some of the
           wildest wishes your business users have always had. Let EKO
           Infomaticsand our team of award-winning Big Data Architects help your
-          organization bring those wishes to life.(This is very superficial –
-          and can be removed)
+          organization bring those wishes to life.
         </p>
         &nbsp;
         <p>
