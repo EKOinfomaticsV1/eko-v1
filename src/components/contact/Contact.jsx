@@ -88,24 +88,44 @@ const Contact = () => {
             </div>
 
             <div className="text-[#868686] mt-20 lg:mt-0 text-sm lg:mx-10 ">
-              <a
-                href="https://goo.gl/maps/1bj7ZVPM6AjkgFseA"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className="flex justify-start gap-5 items-center w-[200px] mb-5">
-                  <span>
-                    <LocationOnOutlinedIcon
-                      fontSize="large"
-                      className="text-[#3498db]"
-                    />
-                  </span>
-                  <span className="font-sans w-[150px] inline-block">
-                    No.76, 7th A cross, 4th B Block, Koramangala, Bangalore,
-                    Karnataka 560034.
-                  </span>
+              <div className="flex justify-start gap-5 items-center w-[200px] mb-5">
+                <span>
+                  <LocationOnOutlinedIcon
+                    fontSize="large"
+                    className="text-[#3498db]"
+                  />
+                </span>
+                <div className="block sm:flex lg:block gap-5 2xl:flex">
+                  <a
+                    href="https://goo.gl/maps/1bj7ZVPM6AjkgFseA"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div>
+                      <span className="font-bold">INDIA</span>
+                      <span className="font-sans w-[150px] inline-block">
+                        No.76, 7th A cross, 4th B Block, Koramangala, Bangalore,
+                        Karnataka 560034.
+                      </span>
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://goo.gl/maps/EX3FgpwqxUhsrYs99"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="mt-5 sm:mt-0 lg:mt-5 2xl:mt-0">
+                      <span className="font-bold">USA</span>
+                      <span className="font-sans w-[150px] inline-block capitalize">
+                        EKO INFOMATICS SOLUTIONS INC. 171 Sylvan St Rutherford
+                        NJ 07070-2433 US
+                      </span>
+                    </div>
+                  </a>
                 </div>
-              </a>
+              </div>
+
               <a href="mailto:software@ekoinfomatics.com">
                 <div className="flex justify-start gap-5 items-center  mb-5 font-sans w-[150px] ">
                   <span className="cursor-pointer">
