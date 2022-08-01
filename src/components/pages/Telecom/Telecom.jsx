@@ -11,26 +11,26 @@ const Telecom = () => {
   }, []);
 
   // user list api
-  useEffect(() => {
-    const userListFormData = new FormData();
-    userListFormData.append(
-      "token",
-      "pbkdf2_sha256$320000$LJg5TbWf46vIb7Hy2vBwvv$u/KsVDCjXL4w5gtInU03Db9qagil7ANu8pTZfhw05qY="
-    );
+  // useEffect(() => {
+  //   const userListFormData = new FormData();
+  //   userListFormData.append(
+  //     "token",
+  //     "pbkdf2_sha256$320000$LJg5TbWf46vIb7Hy2vBwvv$u/KsVDCjXL4w5gtInU03Db9qagil7ANu8pTZfhw05qY="
+  //   );
 
-    fetch("http://35.193.222.55:3000/" + "userList", {
-      mode: "cors",
-      method: "POST",
-      body: userListFormData,
-    })
-      .then((response) => response.json())
-      .then((result) => {
-        console.log(result?.user_list);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }, []);
+  //   fetch("http://35.193.222.55:3000/" + "userList", {
+  //     mode: "cors",
+  //     method: "POST",
+  //     body: userListFormData,
+  //   })
+  //     .then((response) => response.json())
+  //     .then((result) => {
+  //       console.log(result?.user_list);
+  //     })
+  //     .catch((error) => {
+  //       console.log(error);
+  //     });
+  // }, []);
 
   return (
     <div>
