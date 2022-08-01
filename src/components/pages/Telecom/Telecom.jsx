@@ -34,7 +34,7 @@ const Telecom = () => {
         <p>
           Since the Latin term communicatio is considered the social process of
           information exchange, the term telecommunications is often used in its
-          plural form because it involves many different technologies
+          plural form because it involves many different technologies.
         </p>
       </InternalPageLayout>
       <Footer />
